@@ -10,10 +10,11 @@ namespace hello
     {
         static void Main(string[] args)
         {
-            int? a = null;
+            int? a = 10;
             int b = 10;
-            Console.WriteLine( a+b);
-            Console.ReadLine(  );
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.ReadLine();
         }
     }
 }
