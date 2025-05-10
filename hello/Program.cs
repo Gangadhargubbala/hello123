@@ -14,6 +14,7 @@ namespace hello
             int b = 10;
             Console.WriteLine(a + b);
             Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
             Console.ReadLine();
         }
     }
